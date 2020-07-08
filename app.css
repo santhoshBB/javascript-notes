@@ -1,0 +1,45 @@
+/* .danger{
+    background: black;
+    color: blanchedalmond;
+}
+.success{
+    background:green;
+    color: black;
+} */
+body{
+    margin: 0;
+    padding: 0;
+    background: gainsboro;
+}
+#navsection{
+    display: flex;
+    background: white;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+}
+#navsection ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+#navsection ul li{
+    display: inline-block;
+}
+#navsection ul li a{
+    padding: 10px;
+    background: rgb(221, 221, 238);
+    color: rgb(102, 98, 98);
+    display: inline-block;
+    border: 1px solid black;
+    margin: 14px 0;
+    box-shadow: inset 4px 1px 26px 2px moccasin;
+  border-radius:5px;
+}
+#dropdown{
+    display: none;
+}
+.show{
+    display: block !important;
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "name": "xyz", 
+        "age":21,
+        "company" :"ABC"
+    },
+    {
+       "name" : "xy2", 
+        "age":22,
+        "company" :"abc"
+    }
+]
